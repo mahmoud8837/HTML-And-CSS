@@ -223,7 +223,6 @@ header nav .form i{
         @media (max-width:767px){
             &{
                 width: 100%;
-                min-height: 100svh;
             }
             .content{
                 min-width: 100%;
@@ -264,6 +263,11 @@ header nav .form i{
     .bullets li.active{
         background-color: var(--main-color);
         border-color: var(--main-color);
+    }
+    @media(max-width:767px){
+        &{
+            min-height: 100svh;
+        }
     }
 }
 /* End Landing */
