@@ -223,6 +223,7 @@ header nav .form i{
         @media (max-width:767px){
             &{
                 width: 100%;
+                min-height: 100svh;
             }
             .content{
                 min-width: 100%;
